@@ -5,8 +5,7 @@ En este ejercicio se practicó conceptos de Bootstrap como grid, flex, color, te
 - IDE: Visual Studio Code
 - HTML, CSS, Bootstrap, Sass
 
-#### :eye: Live Preview :
-https://paledot02.github.io/Exercises_Bootstrap_01/
+#### :eye: Live Preview  :  https://paledot02.github.io/Exercises_Bootstrap_01/
 
 |  |  |  |
 | ----------- | ----------- | ----------- |
@@ -14,6 +13,7 @@ https://paledot02.github.io/Exercises_Bootstrap_01/
 
 
 #### Nota
+- Los ejercicios son de la página https://www.frontendmentor.io/
 
 
 [img_1]: ./Exercise_01/images/screenshot_1.png
