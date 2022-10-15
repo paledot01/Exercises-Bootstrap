@@ -9,7 +9,7 @@
 <img src="./Exercise_01/images/screenshot_3.png" width="14.2%" align="left"/>
 
 
-
+<br>
 
 #### :eye: Live Preview :
 https://paledot02.github.io/Exercises_Bootstrap_01/
