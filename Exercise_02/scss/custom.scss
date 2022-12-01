@@ -1,0 +1,128 @@
+// ------ SASS
+
+// fuente de texto
+$font-family-sans-serif: 'Roboto';
+
+// tamaño de fuentes (por default 1)
+$font-size-base: 0.9rem;
+
+// colores 
+$kevin_oscuro_1:#1B1F23; // por seacaso
+$kevin_oscuro_2:#2B2F33; // principal, sidebar
+$kevin_claro_1:#3F4449; // secundario, toobar
+$kevin_claro_2:#5F6770; // borde
+$kevin_verde_claro: #284F53; // para resaltar
+$kevin_verde_oscuro: #1F3A3D; // para resaltar pero mas oscuro
+$kevin_rojo: #BF5253;
+$kevin_font: #f6f7f9; // fondo para el contenido principal
+
+$dark:      $kevin_oscuro_1 !default;
+$primary:   $kevin_oscuro_2 !default;
+$secondary: $kevin_claro_1 !default;
+$warning:   $kevin_claro_2 !default;
+$success:   $kevin_verde_claro !default;
+$info:      $kevin_verde_oscuro !default;
+$danger:    $kevin_rojo !default;
+$light:     $kevin_font !default;
+
+
+
+// esto modifica la unidad de medida utilizada para crear los margin y padding
+// la medida del 'spacer' original es de '1rem'
+$spacer: 0.8rem;
+
+$accordion-padding-y:                     0.5rem; // 1
+$accordion-padding-x:                     0.9rem; // 1.25
+$accordion-color:                         $light;
+$accordion-bg:                            $secondary;// rgba(40,79,83,0.2);
+$accordion-border-width:                  1px; //--> ancho del borde del acordeon
+$accordion-border-color:                  $warning;//#284F53;
+$accordion-button-active-bg:              $warning; // color del boton cuando se activa
+$accordion-button-active-color:           shade-color($primary, 10%);
+$accordion-icon-active-color:             $light; // color del icono cuando se activa
+
+// input -> para el login
+$input-padding-y:                       0.4rem;
+$input-padding-x:                       0.9rem;
+$input-border-color:                    $secondary;
+$input-color:                           $light;
+
+$input-bg:                              $dark;
+$input-focus-bg:                        $dark;
+$input-focus-color:                     $light;
+
+
+
+
+// -------------- ESTILOS PERSONALIDOS CON CSS
+/*
+100% : ocupa el 100% del contenido
+100vh: ocupa el 100% del tamaño principal de la pantalla, si el contenido sobrepasa el 
+       tamaño de la pantalla no lo cuenta
+
+*/
+.cabeza {
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    padding-left: 230px;
+}
+.lateral {
+    position: fixed;
+    width: 230px;
+    border-right: 1px solid $warning;
+}
+    .lateral img{
+        width: 100%;
+        padding: 20px 20px 0 20px;
+    }
+    .separador{
+        border-top: 1px solid $warning ;
+        height: 0px;
+        margin: 20px 0;
+    }
+    .opcion{
+        text-decoration: none;
+        color: $light;
+        height: 32px;
+        font-weight: 500;
+        align-items: center;
+        padding: 0 15px;
+    }
+    .opcion:hover{
+        background-color: $success;
+        transition: 100ms;
+        color: $light
+    }
+
+.principal {
+    padding: 48px 0 0 230px;
+    justify-content: space-between;
+}
+// si solo ponemos height 48 se seguira deformando el alto porque es 
+// flexible, por eso tenemos que anclarlo por arriba y por abajo
+.pie { 
+    min-height: 48px;
+    max-height: 48px;
+}
+@media (max-width: 500px){
+    .lateral{
+        margin-left: -230px;
+        transition: 100ms;
+    }
+    .principal {
+        padding-left: 0px;
+        transition: 100ms;
+    }
+    .cabeza{
+        padding-left: 0px;
+        transition: 100ms;
+    }
+}
+.login{
+    width: 300px;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

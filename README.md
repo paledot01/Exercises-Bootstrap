@@ -4,6 +4,8 @@ En este ejercicio se practicó conceptos de Bootstrap como grid, flex, color, te
 
 - IDE: Visual Studio Code
 - HTML, CSS, Bootstrap, Sass
+- Nota: el ejercicio es de la página https://www.frontendmentor.io/
+
 
 #### :eye: Live Preview  :  https://paledot02.github.io/Exercises_Bootstrap_01/
 
@@ -11,11 +13,25 @@ En este ejercicio se practicó conceptos de Bootstrap como grid, flex, color, te
 | ----------- | ----------- | ----------- |
 | ![][img_1] | ![][img_2] | ![][img_4]
 
-
-#### Nota
-- Los ejercicios son de la página https://www.frontendmentor.io/
-
-
 [img_1]: ./Exercise_01/images/screenshot_1.png
 [img_2]: ./Exercise_01/images/screenshot_2.png
 [img_4]: ./Exercise_01/images/screenshot_4.png
+
+## Practica 02
+
+Este template responsivo que incluye un Login se realizó para un proyecto de una aplicacion web. Se utilizo componentes e iconos de Bootstrap y se personalizarón con CSS y Sass
+
+- IDE: Visual Studio Code
+- HTML, CSS, Bootstrap, Sass, Google Fonts.
+
+|  |  |
+| ----------- | ----------- |
+| ![][img_5] | ![][img_6] | 
+
+[img_5]: ./Exercise_02/img/gif_01.gif
+[img_6]: ./Exercise_02/img/gif_02.gif
+[img_7]: ./Exercise_02/img/gif_03.gif
+
+
+
+
