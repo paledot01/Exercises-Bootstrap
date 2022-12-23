@@ -15,6 +15,7 @@ $kevin_verde_claro: #284F53; // para resaltar
 $kevin_verde_oscuro: #1F3A3D; // para resaltar pero mas oscuro
 $kevin_rojo: #BF5253;
 $kevin_font: #f6f7f9; // fondo para el contenido principal
+$kevin_blue: #005AA4;
 
 $dark:      $kevin_oscuro_1 !default;
 $primary:   $kevin_oscuro_2 !default;
@@ -42,15 +43,30 @@ $accordion-button-active-color:           shade-color($primary, 10%);
 $accordion-icon-active-color:             $light; // color del icono cuando se activa
 
 // input -> para el login
-$input-padding-y:                       0.4rem;
-$input-padding-x:                       0.9rem;
-$input-border-color:                    $secondary;
-$input-color:                           $light;
+$input-btn-padding-y:                     .25rem !default; // modifica el padding-y de los inputs y botones.
+$input-padding-x:                         0.9rem; // paddin-y solo de los inputs
+$input-border-color:                    rgba(200,200,200,1);//$secondary; // color del borde de un pixel que rodea al input
+// $input-color:                          $light; // color de letra cuando no se tiene el foco
+// $input-bg:                             $dark; // color de fondo cuando no se tiene el foco
+// $input-focus-bg:                       $dark; // fondo cuando tiene el foco
+// $input-focus-color:                    $light; // texto al escribir
+$input-btn-focus-width:                  .15rem !default; // blur - ancho en el focus
+$input-btn-focus-color-opacity:          .25 !default; // blur - opacidad del color en el focus
+$component-active-bg:                    $success !default; // color del blur borde de todos los componentes que utilizan esta variable
+$input-focus-border-color:               rgba($success,0.5) !default; // color de borde cuando obtiene el foco los componentes
 
-$input-bg:                              $dark;
-$input-focus-bg:                        $dark;
-$input-focus-color:                     $light;
+$form-select-bg:                    rgba(233,236,239,1); // color de fondo de los select.
+//$form-select-disabled-bg:           $gray-200;
 
+// table ->
+$table-cell-padding-y:        .1rem; // default .5
+$table-cell-padding-x:        .5rem; // default .5
+$table-color:                 $dark; // color fuente de texto de la tabla
+$table-bg:                    transparent; // color fondo de toda la tabla
+$table-accent-bg:             transparent; // filas claras de la tabla empezando por la primera, color fondo
+$table-striped-color:         $dark; //  filas oscuras empezando por la 2da, color de fuente
+$table-striped-bg:            rgba(210,210,210,0.5); // filas oscuras color de fondo
+$table-border-color:          rgba(210,210,210,1); // color del borde
 
 
 
@@ -105,7 +121,7 @@ $input-focus-color:                     $light;
     min-height: 48px;
     max-height: 48px;
 }
-@media (max-width: 500px){
+@media (max-width: 900px){
     .lateral{
         margin-left: -230px;
         transition: 100ms;
