@@ -1,4 +1,4 @@
-## Practica 01
+## Practica 01 | :eye:[Live Preview][v1] 
 
 En este ejercicio se practicó conceptos de Bootstrap como grid, flex, color, text, border, shadow, font, margin, etc, y se personalizaron con Sass. La pagina es responsiva, en tres tamaños diferentes, además se uso 'PurgeCSS' para eliminar los estilos no utilizados del Bootstrap, y asi reducir su tamaño. Por ultimo se minificó el CSS purgado.
 
@@ -6,6 +6,7 @@ En este ejercicio se practicó conceptos de Bootstrap como grid, flex, color, te
 - HTML, CSS, Bootstrap, Sass
 - Nota: el ejercicio es de la página https://www.frontendmentor.io/
 
+[v1]: https://paledot02.github.io/Exercises_Bootstrap_01/
 
 #### :eye: Live Preview  :  https://paledot02.github.io/Exercises_Bootstrap_01/
 
