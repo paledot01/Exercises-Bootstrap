@@ -25,9 +25,10 @@ Este template responsivo que incluye un Login se realizó para un proyecto de un
 
 |  |  |
 | ----------- | ----------- |
-| ![][img_5] | ![][img_6] | 
+| ![][img_5] | ![][img_6] |
+| ![][img_7] | |
 
-[v2]: https://paledot02.github.io/Exercises_Bootstrap_01/
+[v2]: https://paledot02.github.io/Exercises_Bootstrap_02/
 [img_5]: ./Exercise_02/img/gif_01.gif
 [img_6]: ./Exercise_02/img/gif_02.gif
 [img_7]: ./Exercise_02/img/gif_03.gif
